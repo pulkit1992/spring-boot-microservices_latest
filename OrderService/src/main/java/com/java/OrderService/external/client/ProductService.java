@@ -1,7 +1,7 @@
 package com.java.OrderService.external.client;
 
 import com.java.OrderService.exception.CustomException;
-import com.java.ProductService.model.ProductResponse;
+import com.java.OrderService.model.ProductResponse;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
